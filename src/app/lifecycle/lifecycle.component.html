@@ -1,0 +1,19 @@
+<p>lifecycle works! {{x}}</p>
+<p>{{x}}</p>
+<h3 >I am learning {{class}} from Tufan Da. </h3>
+<button type="submit" (click)="change()"> change</button>
+<svg>
+    <g>
+      <rect x="0" y="0" width="100" height="100" [attr.fill]="fillColor" (click)="changeColor()" />
+      <text x="120" y="50">click the rectangle to change the fill color</text>
+    </g>
+    <!-- <a  [style]="xx" (click)="jj()">{{vv}}</a> -->
+     
+    
+  </svg>
+  <input *ngIf="isInput" type="text" [(ngModel)]="dfr" />
+  <button type="submit" (click)="submit()"> submit</button>
+  <ul>
+    <li *ngFor="let hero of heroes">{{hero.name}}</li>
+  </ul>
+ 

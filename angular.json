@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kishore"
+    }
+  },
+  "defaultProject": "kishore",
+  "cli": {
+    "analytics": "3949821d-4fe4-403a-b10f-487f0c8ff311"
+  }
 }
